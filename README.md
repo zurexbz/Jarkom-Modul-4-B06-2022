@@ -1,7 +1,5 @@
 # Jarkom-Modul-4-B06-2022
 
-### Kelompok 10 Kelas B
-
 | **No** | **NRP** | **Nama** | 
 | ------------- | ------------- | --------- |
 | 1 | 5025201100 | Hansen Idden | 
