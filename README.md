@@ -418,6 +418,36 @@ echo nameserver 192.168.122.1 > /etc/resolv.conf
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.6.160.1
 ```
 
+## Penggabungan Node
+Kondisi Node Awal
+<img width="697" alt="A CIDR" src="https://user-images.githubusercontent.com/83849481/204120060-8106faf7-d26f-4a34-a364-6f2209dc8ab5.png">
+
+| **Subnet** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | --------- |
+| A1 | 1001 | 22 | 
+| A2 | 251 | 24 |
+| A3 | 2 | 30 |
+| A4 | 2 | 30 | 
+| A5 | 51 | 26 |
+| A6 | 2 | 30 |
+| A7 | 121 | 25 | 
+| A8 | 211 | 24 |
+| A9 | 501 | 23 |
+| A10| 2 | 30 | 
+| A11| 71 | 25 |
+| A12| 121 | 25 |
+| A13| 2 | 30 |
+| A14| 2 | 30 | 
+| A15| 2 | 30 |
+| A16| 271 | 23 |
+| A17| 2 | 30 | 
+| A18| 2 | 30 |
+
+Penggabungan Node Pertama yaitu B
+<img width="747" alt="B CIDR" src="https://user-images.githubusercontent.com/83849481/204120074-88d2d48d-12b2-4054-9920-3fab78bd9139.png">
+
+
+
 # VLSM
 Perhitungan IP
 
