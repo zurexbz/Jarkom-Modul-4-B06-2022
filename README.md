@@ -417,3 +417,7 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.6.144.2
 echo nameserver 192.168.122.1 > /etc/resolv.conf
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.6.160.1
 ```
+
+# VLSM
+Perhitungan IP
+
