@@ -420,6 +420,7 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.6.160.1
 
 ## Penggabungan Node
 Kondisi Node Awal
+
 <img width="697" alt="A CIDR" src="https://user-images.githubusercontent.com/83849481/204120060-8106faf7-d26f-4a34-a364-6f2209dc8ab5.png">
 
 | **Subnet** | **Jumlah IP** | **Netmask** | 
@@ -444,8 +445,80 @@ Kondisi Node Awal
 | A18| 2 | 30 |
 
 Penggabungan Node Pertama yaitu B
+
 <img width="747" alt="B CIDR" src="https://user-images.githubusercontent.com/83849481/204120074-88d2d48d-12b2-4054-9920-3fab78bd9139.png">
 
+
+| **Subnet** | **Alias** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | ------------- | --------- |
+| B1 | A2, A3 | 251 | 23 |
+| B2 | A18, A8 | 211 | 23 |
+| B3 | A11, A12 | 121 | 24 |
+
+Penggabungan Node Kedua yaitu C
+
+<img width="746" alt="C CIDR" src="https://user-images.githubusercontent.com/83849481/204121755-859a0ed8-5a8d-4e16-9866-5289e7cd5e07.png">
+
+| **Subnet** | **Alias** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | ------------- | --------- |
+| C1 | A1, B1 | 1001 | 21 |
+| C2 | A9, B2 | 501 | 22 |
+| C3 | A13, B3 | 121 | 23 |
+
+Penggabungan Node Ketiga yaitu D
+
+<img width="753" alt="D CIDR" src="https://user-images.githubusercontent.com/83849481/204121793-7eb11a55-807d-43b6-991d-2fe8fc3b748b.png">
+
+| **Subnet** | **Alias** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | ------------- | --------- |
+| D1 | A4, C1 | 1001 | 20 |
+| D2 | A10, C2 | 501 | 21 |
+| D3 | A7, C3 | 121 | 22 |
+
+Penggabungan Node Keempat yaitu E
+
+<img width="787" alt="E CIDR" src="https://user-images.githubusercontent.com/83849481/204121895-5f87c9fe-aa3e-4d0b-a7e0-034d5a28df98.png">
+
+| **Subnet** | **Alias** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | ------------- | --------- |
+| E1 | A5, D1 | 1001 | 19 |
+| E2 | D2, D3 | 501 | 20 |
+
+Penggabungan Node Kelima yaitu F
+
+<img width="794" alt="F CIDR" src="https://user-images.githubusercontent.com/83849481/204121952-5ffc0507-c731-47c0-8e1d-ced2c185a327.png">
+
+| **Subnet** | **Alias** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | ------------- | --------- |
+| F1 | A6, E1 | 1001 | 18 |
+| F2 | A14, E2 | 501 | 19 |
+
+Penggabungan Node Keenam yaitu G
+
+<img width="806" alt="G CIDR" src="https://user-images.githubusercontent.com/83849481/204122002-1134c3e7-97bf-4163-891c-659d8fa728a5.png">
+
+| **Subnet** | **Alias** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | ------------- | --------- |
+| G1 | A17, F1 | 1001 | 17 |
+| G2 | A15, F2 | 501 | 18 |
+
+Penggabungan Node Ketujuh yaitu H
+
+<img width="875" alt="H CIDR" src="https://user-images.githubusercontent.com/83849481/204122034-041b1f27-4c8e-4406-a60f-28a788eed6db.png">
+
+| **Subnet** | **Alias** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | ------------- | --------- |
+| H1 | A16, G2 | 501 | 17 |
+
+Penggabungan Node Kedelapan yaitu I
+
+<img width="840" alt="I CIDR" src="https://user-images.githubusercontent.com/83849481/204122054-6f3720bc-5baf-4f76-9644-235ac3733761.png">
+
+| **Subnet** | **Alias** | **Jumlah IP** | **Netmask** | 
+| ------------- | ------------- | ------------- | --------- |
+| I1 | H1, G1 | 1001 | 16 |
+
+## Sehingga dihasilkan tree sebagai berikut
 
 
 # VLSM
