@@ -519,6 +519,7 @@ Penggabungan Node Kedelapan yaitu I
 | I1 | H1, G1 | 1001 | 16 |
 
 ## Sehingga dihasilkan tree sebagai berikut
+![Decision Tree KK 3](https://user-images.githubusercontent.com/83849481/204123186-3cdfabd6-ed3a-4066-a551-1c8c906513ca.jpg)
 
 
 # VLSM
