@@ -523,5 +523,22 @@ Penggabungan Node Kedelapan yaitu I
 
 
 # VLSM
-Perhitungan IP
+Cisco
+![Screenshot 2022-12-16 173931](https://user-images.githubusercontent.com/89374566/208080679-65d2cfba-d5cf-4184-8822-4d7769b524fe.png)
+Tabel Subnetting
+![Screenshot 2022-12-16 174234](https://user-images.githubusercontent.com/89374566/208081167-fadb2d4e-4bf5-4820-800e-b1d55867b95d.png)
+Tree
+![B06 (1)](https://user-images.githubusercontent.com/89374566/208081262-d0b1a5dc-8489-453e-be29-fda8dfbda039.jpg)
+
+#CIDR
+![Screenshot 2022-12-16 174413](https://user-images.githubusercontent.com/89374566/208081512-31db7c45-cada-4dc0-bed8-da6daa49e6b7.png)
+
+#Kendala
+-Penentuan pohon cidr
+-Subnetting cidr
+
+
+
+
+
 
